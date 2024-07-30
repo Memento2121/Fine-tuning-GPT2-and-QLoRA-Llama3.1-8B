@@ -1,12 +1,5 @@
-# Fine-tuning-GPT2
+# Fine-tuning-GPT2 + QLoRA Llama 3.1 8B
 
-The goal is to finetune GPT-2 on a Shakespear text with a single L4 GPU (Google Colab).
+The goal is to finetune GPT-2 (124M) and QLoRA finetune Llama 3.1 (8B) on a Shakespear text with a single L4 GPU (Google Colab).
 
-Normal_version : Training time = 4 min 47 secs
-Validation Loss: 3.02
-Training Loss: 2.80
-
-Opti_version : Training time = 2 min 25 secs 
-Validation Loss: 3.25
-Training Loss: 1.86
-(!slight overfitting!)
+Results : QLoRA finetune Llama 3.1 (8B) is way better
